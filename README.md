@@ -15,7 +15,7 @@ The server is implemented using Flask and provides endpoints for key exchange an
 #### Client A
 
 1. **Key Exchange (ClientA)**:
-    - ClientA generates a pair of RSA keys (public and private).
+    - ClientA uses generated pair of RSA keys (public and private).
     - The public key is stored in a file (`clientA.pub`) and is sent to the server for registration.
 
     ```python
